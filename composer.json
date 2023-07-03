@@ -1,0 +1,19 @@
+{
+    "name": "edgarlct/iim-td2",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iim\\td2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edgarlct",
+            "email": "edgar.lecomte@icloud.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
