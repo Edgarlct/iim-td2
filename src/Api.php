@@ -10,4 +10,14 @@ class Api
     {
         return rand(0, 100);
     }
+
+    public function getDateTime(): \DateTime
+    {
+        return new \DateTime();
+    }
+
+    public function getDateAsString(): string
+    {
+        return $this->getDateTime()->format('Y-m-d');
+    }
 }
