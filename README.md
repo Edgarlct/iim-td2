@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-composer require pgrimaud/iim-td2
+composer require edgarlct/iim-td2
 ```
 
 ## Local development
